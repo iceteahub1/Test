@@ -1,17 +1,13 @@
 # Test
-Python program that reads URLs from a file named `urls.txt` and extracts video URLs ending with `.mp4` and photo URLs ending with `orig`:
+#the Python program that grabs links from a list of URLs, extracts video URLs ending with .mp4, photo URLs ending with orig, the text of the tweet, and the date in the Korean time zone:
 
-1. **Create `urls.txt`**: Make sure you have a file named `urls.txt` with the list of URLs (e.g., `https://twitter.com/somepage`, `https://x.com/anotherpage`).
+##Create urls.txt: Make sure you have a file named urls.txt with the list of URLs (e.g., https://twitter.com/somepage, https://x.com/anotherpage).
+Python Program: app.py
 
-2. **Python Program**: "app.py"
-```
+##Steps to Run the Program:
+Create urls.txt: Add your Twitter or X URLs to a file named urls.txt, each URL on a new line.
+Install Required Libraries: Ensure you have the requests, beautifulsoup4, and pytz libraries installed:
+pip install requests beautifulsoup4 pytz
 
-### Steps to Run the Program:
-1. **Create `urls.txt`**: Add your Twitter or X URLs to a file named `urls.txt`, each URL on a new line.
-2. **Install Required Libraries**: Ensure you have the `requests` and `beautifulsoup4` libraries installed:
-   ```sh
-   pip install requests beautifulsoup4
-   ```
-3. **Run the Program**: Execute the Python script.
-
-This program will read the URLs from `urls.txt`, grab all the links from each page, filter them to find video links ending with `.mp4` and photo links ending with `orig`, and then print them out.
+Run the Program: Execute the Python script.
+This program will read the URLs from urls.txt, grab all the links from each page, filter them to find video links ending with .mp4 and photo links ending with orig, and then print the tweet texts and dates in the Korean time zone.
