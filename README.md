@@ -1,5 +1,5 @@
 # Test
-Got it! Here's an updated version of the Python program that reads URLs from a file named `urls.txt` and extracts video URLs ending with `.mp4` and photo URLs ending with `orig`:
+Python program that reads URLs from a file named `urls.txt` and extracts video URLs ending with `.mp4` and photo URLs ending with `orig`:
 
 1. **Create `urls.txt`**: Make sure you have a file named `urls.txt` with the list of URLs (e.g., `https://twitter.com/somepage`, `https://x.com/anotherpage`).
 
